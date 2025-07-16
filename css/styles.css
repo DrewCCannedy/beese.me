@@ -62,23 +62,27 @@ body {
 }
 
 .btn-primary {
-    background-color: #007bff;
+    background-color: transparent;
     border-color: #007bff;
+    color: #007bff;
 }
 
 .btn-primary:hover {
-    background-color: #0069d9;
-    border-color: #0062cc;
+    background-color: #007bff;
+    border-color: #007bff;
+    color: white;
 }
 
 .btn-secondary {
-    background-color: #6c757d;
+    background-color: transparent;
     border-color: #6c757d;
+    color: #6c757d;
 }
 
 .btn-secondary:hover {
-    background-color: #5a6268;
-    border-color: #545b62;
+    background-color: #6c757d;
+    border-color: #6c757d;
+    color: white;
 }
 
 /* Form Styles */
@@ -87,6 +91,17 @@ body {
     padding: 2rem;
     border-radius: 0;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn-outline-secondary {
+    background-color: transparent;
+    border-color: #6c757d;
+    color: #6c757d;
+}
+
+.btn-outline-secondary:hover {
+    background-color: #6c757d;
+    color: white;
 }
 
 /* Image Styles */
