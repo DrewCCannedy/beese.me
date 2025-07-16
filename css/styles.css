@@ -120,4 +120,32 @@ img {
     .what-i-do {
         font-size: 2.5rem;
     }
+    
+    .service-img {
+        max-height: 150px;
+    }
+    
+    .service-box h3 {
+        font-size: 1.2rem;
+    }
+    
+    .btn {
+        padding: 0.4rem 1rem;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .service-img {
+        max-height: 100px;
+    }
+    
+    .service-box h3 {
+        font-size: 1rem;
+    }
+    
+    .btn {
+        padding: 0.3rem 0.8rem;
+        font-size: 0.8rem;
+    }
 }
