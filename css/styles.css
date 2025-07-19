@@ -115,6 +115,25 @@ img {
     margin: 0 auto;
 }
 
+/* Instrument List Styles */
+.instrument-list {
+    padding: 15px 0;
+}
+
+.instrument {
+    display: inline-block;
+    margin-bottom: 15px;
+    transition: transform 0.3s ease, color 0.3s ease;
+    font-weight: 500;
+    color: #333;
+}
+
+.instrument:hover {
+    transform: scale(1.1);
+    color: #007bff;
+    cursor: default;
+}
+
 /* Responsive Adjustments */
 @media (max-width: 768px) {
     .beese-logo h1 {
